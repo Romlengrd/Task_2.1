@@ -42,4 +42,9 @@ public class Pen {
         result = 31*result+color.hashCode();
         return result;
     }
+
+    @Override
+    public String toString () {
+        return getClass().getName() + "@" + "price - " + price + "color - " + color;
+    }
 }

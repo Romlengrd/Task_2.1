@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Цвет 2й ручки - " + pen1.getColor());
 
         System.out.println("Одинаковы ли ручки? - " + pen.equals(pen1));
+        System.out.println(pen.toString());
+        System.out.println(pen1.toString());
     }
 }
